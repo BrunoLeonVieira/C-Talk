@@ -12,9 +12,26 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main"
     tools:context="br.com.c_talk.drummond.c_talk.MainActivity">
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true">
     <TextView
-        android:text="Hello World!"
+        android:text="Bem vindo ao C-Talk!"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp">
+    <TextView
+        android:text="Para iniciar, escolha o modolo abaixo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
 </RelativeLayout>
